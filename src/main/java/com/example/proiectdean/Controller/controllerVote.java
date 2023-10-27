@@ -9,6 +9,8 @@ public class controllerVote {
     String data= "eu sunt de aici";
     @GetMapping("/getCandidates")
     public Candidates[] getCandidates(){
+        System.out.println("gsdg");
+
         return Candidates.getAll();
     }
 
