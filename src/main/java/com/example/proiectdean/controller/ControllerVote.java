@@ -53,8 +53,6 @@ public class ControllerVote {
         return Candidates.percentOfVote();
 
     }
-
-
 }
 
 

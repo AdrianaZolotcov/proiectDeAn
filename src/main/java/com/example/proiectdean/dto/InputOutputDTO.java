@@ -9,11 +9,4 @@ public class InputOutputDTO {
     public String prenume;
     public int votePurcent;
 
-    @Getter @Setter
-    public static class InputOutputDTO {
-        public String nume;
-        public String prenume;
-        public int votePurcent;
-
-    }
 }

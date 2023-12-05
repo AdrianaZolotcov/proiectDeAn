@@ -12,7 +12,6 @@ public class VotesPcTable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
     private String NAME_VAL;
     private String SURNAME;
     private int VOTES_COUNT;

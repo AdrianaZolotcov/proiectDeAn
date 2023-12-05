@@ -14,6 +14,5 @@ public class UserDTO {
         return true;
 
     }
-
 }
 

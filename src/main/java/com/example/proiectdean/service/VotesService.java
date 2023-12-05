@@ -20,4 +20,5 @@ public class VotesService {
     public static List<VotesPcTable> getAllEntities() {
         return votesRepository.findAllField();
     }
+
 }

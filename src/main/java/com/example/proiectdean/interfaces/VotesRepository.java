@@ -10,5 +10,4 @@ public interface VotesRepository extends  JpaRepository<VotesPcTable, Long> {
 
     @Query(value = "SELECT * FROM votes_pc pc", nativeQuery = true)
     List<VotesPcTable> findAllField();
-
 }

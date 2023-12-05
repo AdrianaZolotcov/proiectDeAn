@@ -21,7 +21,6 @@ public enum UsersInSystem {
     public String grupa;
     public boolean votedFlag;
 
-
     UsersInSystem(String nume, String prenume, String grupa, boolean vote){
         this.nume = nume;
         this.prenume = prenume;

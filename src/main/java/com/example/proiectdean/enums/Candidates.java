@@ -92,12 +92,10 @@ public enum Candidates {
                      candidatesList.add(responsOBJ);
             }
 
-
             }
 
 
         }
         return candidatesList;
     }
-
 }
